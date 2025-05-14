@@ -2,24 +2,70 @@ body {
     background-color: #333;
 }
 
+/* Die Leiste oben */
 .header_line {
     background-color: white;
+    justify-content: space-evenly;
+    overflow: hidden;
     border-radius: 10px;
+
+    max-width: 1000px;
+    width: 100%;
+
+    margin: 0 auto;
     display: flex;
 }
 
-.header_button {
+/* Ein Knopf oben in der Leiste */
+.header_line a {
     font-family: "Fira Code", monospace;
     font-weight: bolder;
+    font-size: 20px;
     background-color: transparent;
     color: black;
-    padding-block: 1%;
+    padding-block: 10px;
     padding-inline: 1%;
     text-decoration: none;
-    font-size: 20px;
+    width: 100%;
+    text-align: center;
 }
 
-h1 {
-    color: white;
-    background-color: black;
+/* Button Hover Animation (Hintergrund wird dunkler) */
+.header_button:hover {
+    background-color: #DDDDDD;
+    border-radius: 3px;
+}
+
+.text_section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 20px auto;
+
+    max-width: 1000px;
+    width: 70%;
+}
+
+/* eine Überschrift innerhalb eines Textbereichs */
+.text_section h1 {
+    font-family: "Fira Code", monospace;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ein Bild innerhalb eines Textbereichs */
+.text_section img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Text innerhalb eines Textbereichs */
+.text_section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #111111;
+    text-align: justify;
 }
