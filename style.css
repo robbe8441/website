@@ -29,6 +29,10 @@ body {
     text-align: center;
 }
 
+.text_section em {
+  color: #5e5d5d;
+}
+
 /* Button Hover Animation (Hintergrund wird dunkler) */
 .header_line a:hover {
     background-color: #DDDDDD;
@@ -64,6 +68,17 @@ body {
     text-align: center;
 }
 
+.text_section h3 {
+    font-family:"Segoe UI", sans-serif;
+    font-size: 1.1rem;
+    color: #333333;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
 /* ein Bild innerhalb eines Textbereichs */
 .text_section img {
     display: block;
@@ -76,7 +91,19 @@ body {
 .text_section p {
     font-family:"Segoe UI", sans-serif;
     font-size: 1rem;
+    font-weight: 500;
     color: #111111;
     text-align: justify;
     margin-block: 0px;
+    white-space:inherit;
+}
+
+.text_section aside {
+    font-family:"Segoe UI", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333333;
+    text-align: justify;
+    margin-block: 0px;
+    white-space:inherit;
 }
