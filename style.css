@@ -29,9 +29,6 @@ body {
     text-align: center;
 }
 
-.text_section em {
-  color: #5e5d5d;
-}
 
 /* Button Hover Animation (Hintergrund wird dunkler) */
 .header_line a:hover {
@@ -93,17 +90,26 @@ body {
     font-size: 1rem;
     font-weight: 500;
     color: #111111;
-    text-align: justify;
+    text-align: left;
     margin-block: 0px;
-    white-space:inherit;
 }
 
-.text_section aside {
+.text_section ul {
+    margin-block: 0px;
+    padding-left: 0%;
+}
+
+/* Text in einer aufzähling, z.B. Quellen */
+.text_section ul a {
     font-family:"Segoe UI", sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
     color: #333333;
-    text-align: justify;
-    margin-block: 0px;
-    white-space:inherit;
+    text-decoration: none;
+    padding-left: 0%;
+}
+
+/* Text leicht ausgegraut */
+.text_section em {
+  color: #5e5d5d;
 }
